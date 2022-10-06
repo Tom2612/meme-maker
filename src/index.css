@@ -6,19 +6,19 @@
 body {
     font-size: 16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
 }
 
 .header {
-    /* border: 1px solid black; */
     display: flex;
-    padding: 0.8rem;
-    background: linear-gradient(to right, #1E9FE1, #1bb7cc)
+    align-items: center;
+    padding: 0.9rem;
+    background: linear-gradient(to right, #1E9FE1, #1bb7cc);
+    color: white;
 }
 .header--title {
-    text-shadow: 0px 0px 2px black;
+    font-size: 2rem;
 }
 .header--image {
-    width: 2rem;
+    width: 4rem;
     margin-right: 0.8rem;
 }
